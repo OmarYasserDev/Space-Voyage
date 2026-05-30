@@ -1,451 +1,261 @@
-html,
-body{
+html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-
-
-#Home{
-
+#Home {
     min-height: 100vh;
-
     background-image: url("./Mercury-planets-section.png");
-
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
 }
 
-
-
-.NavBar{
-
+.NavBar {
     min-height: 90px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     padding: 0 60px;
-
     background: rgba(0, 0, 0, 0.15);
-
     backdrop-filter: blur(10px);
 }
 
-
-
-.logo-text{
-
+.logo-text {
     display: flex;
-
     align-items: center;
-
     color: aliceblue;
-
     padding: 5px;
 }
 
-#logo-sec{
-
+#logo-sec {
     padding: 5px;
-
     width: 70px;
-
     transition: all 0.35s ease;
 }
 
-#logo-sec:hover{
-
+#logo-sec:hover {
     transform: translateY(-4px) scale(1.08) rotate(-3deg);
-
     filter: drop-shadow(0 0 12px rgba(108, 99, 255, 0.7));
 }
 
-.text-sec-logo{
-
+.text-sec-logo {
     margin: 10px;
-
     font-weight: bold;
-
     color: white;
-
     transition: all 0.35s ease;
-
     padding: 8px 14px;
-
     border-radius: 10px;
 }
 
-.text-sec-logo:hover{
-
+.text-sec-logo:hover {
     transform: translateY(-4px) scale(1.05);
-
     backdrop-filter: blur(6px);
-
     color: #6C63FF;
 }
 
-
-
-.the-five-buttons{
-
+.the-five-buttons {
     flex: 1;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     gap: 25px;
 }
 
-.btn{
-
+.btn {
     background-color: transparent;
-
     color: white;
-
     border: none;
-
     font-size: larger;
-
     font-weight: bold;
-
     transition: 0.3s;
-
     cursor: pointer;
 }
 
-.btn:hover{
-
+.btn:hover {
     transform: translateY(-5px);
-
     color: #6C63FF;
 }
 
-
-
-.Get-started-button{
-
+.Get-started-button {
     display: flex;
 }
 
-.btn2{
-
+.btn2 {
     padding: 12px 24px;
-
     background: linear-gradient(135deg, #6C63FF, #4A90E2);
-
     color: white;
-
     border: none;
-
     border-radius: 12px;
-
     cursor: pointer;
-
     transition: all 0.35s ease;
-
     font-size: larger;
-
     font-weight: bold;
-
     box-shadow: 0 0 15px rgba(108, 99, 255, 0.4);
 }
 
-.btn2:hover{
-
+.btn2:hover {
     transform: translateY(-6px) scale(1.05);
-
     background: linear-gradient(135deg, #7D76FF, #5AA9FF);
-
     box-shadow: 0 0 25px rgba(108, 99, 255, 0.7);
 }
 
-
-
-.text-header{
-
+.text-header {
     margin-left: 50px;
-
     margin-top: 40px;
 }
 
-.text-header h1{
-
+.text-header h1 {
     font-family: Arial, sans-serif;
-
     font-size: 64px;
-
     font-weight: 700;
-
     color: white;
-
     letter-spacing: -2px;
-
     margin-bottom: 18px;
-
     transition: 0.3s;
 }
 
-.text-header h1:hover{
-
+.text-header h1:hover {
     transform: translateY(-5px);
-
     color: #b8b8b8;
 }
 
-.text-header p{
-
+.text-header p {
     font-family: Arial, sans-serif;
-
     font-size: 20px;
-
     font-weight: 400;
-
     color: #b8b8b8;
-
     line-height: 1.7;
 }
 
-
-
-.Home{
-
+.Home {
     display: flex;
-
     align-items: flex-start;
-
     gap: 90px;
-
     margin-left: 50px;
-
     margin-top: 40px;
 }
 
-
-
-.Planets-images-texts-section{
-
+.Planets-images-texts-section {
     width: 260px;
-
     padding-right: 30px;
-
     border-right: 1px solid rgba(255,255,255,0.15);
-
     display: flex;
-
     flex-direction: column;
-
     gap: 12px;
-
     flex-shrink: 0;
 }
 
-
-.eight-btns{
-
+.eight-btns {
     width: 100%;
-
     height: 72px;
-
     display: flex;
-
     align-items: center;
-
     gap: 18px;
-
     padding: 0 18px;
-
     border: none;
-
     border-radius: 16px;
-
     background: transparent;
-
     color: white;
-
     font-size: 24px;
-
     font-weight: 600;
-
     cursor: pointer;
-
     transition: 0.3s ease;
 }
 
-
-
 .eight-btns:hover,
-.active{
-
-    background: linear-gradient(
-        135deg,
-        #5D5FEF,
-        #4C46E6
-    );
-
+.active {
+    background: linear-gradient(135deg, #5D5FEF, #4C46E6);
     transform: translateY(-3px);
-
-    box-shadow:
-    0 0 18px rgba(93,95,239,0.55);
+    box-shadow: 0 0 18px rgba(93,95,239,0.55);
 }
 
-
-.image-planet{
-
+.image-planet {
     width: 42px;
-
     height: 42px;
-
     border-radius: 50%;
-
     object-fit: cover;
 }
 
-
-
-#info-sec{
-
+#info-sec {
     max-width: 520px;
-
     display: flex;
-
     flex-direction: column;
-
 }
 
-
-
-.info-sec h1{
-
+.info-sec h1 {
     margin: 0;
-
     font-size: 60px;
-
     font-weight: 700;
-
     color: white;
-
     transition: 0.3s;
 }
 
-.info-sec h1:hover{
-
+.info-sec h1:hover {
     transform: translateY(-5px);
-
     color: #a8a8a8;
-
 }
 
-
-.info-sec p{
+.info-sec p {
     font-size: 19px;
-
     color: #cfcfcf;
 }
 
-
-
-.all-four-sections{
-
+.all-four-sections {
     margin-top: 18px;
-
     gap: 28px;
 }
 
-
-.four-sec{
-
+.four-sec {
     display: flex;
-
     align-items: center;
-
     gap: 18px;
 }
 
-
-.icon{
-
+.icon {
     width: 58px;
-
     height: 58px;
-
     border-radius: 50%;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     background: rgba(92,95,239,0.08);
-
     border: 1px solid rgba(92,95,239,0.4);
-
-        transition: 0.3s;
+    transition: 0.3s;
 }
-.icon:hover{
 
+.icon:hover {
     transform: translateY(-5px);
-
     border-color: #00BFFF;
-
 }
 
-
-
-.icon-img{
-
+.icon-img {
     width: 26px;
-
     height: 26px;
-
     object-fit: contain;
-    
 }
 
-
-.main-text h3{
-
+.main-text h3 {
     margin-top: 8px;
-
     font-size: 18px;
-
     font-weight: 500;
-
     color: #a8a8a8;
 }
 
-.main-text p{
-
+.main-text p {
     margin-top: 8px;
-
     font-size: 36px;
-
     font-weight: 700;
-
     color: white;
-
-    transition: 0.3;
+    transition: 0.3s;
 }
 
-.main-text p:hover{
-
+.main-text p:hover {
     transform: translateY(-5px);
-
     color: #a8a8a8;
-
 }
