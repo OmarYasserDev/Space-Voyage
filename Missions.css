@@ -1,309 +1,188 @@
-html,
-body{
+html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
     background-image: url("Missions-background.png");
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-
-
-#Home{
-
+#Home {
     min-height: 100vh;
-
     background-image: url("Missions-background.png");
-
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
 }
 
-
-
-.NavBar{
-
+.NavBar {
     min-height: 90px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     padding: 0 60px;
-
     background: rgba(0, 0, 0, 0.15);
-
     backdrop-filter: blur(10px);
 }
 
-
-
-.logo-text{
-
+.logo-text {
     display: flex;
-
     align-items: center;
-
     color: aliceblue;
-
     padding: 5px;
 }
 
-#logo-sec{
-
+#logo-sec {
     padding: 5px;
-
     width: 70px;
-
     transition: all 0.35s ease;
 }
 
-#logo-sec:hover{
-
+#logo-sec:hover {
     transform: translateY(-4px) scale(1.08) rotate(-3deg);
-
     filter: drop-shadow(0 0 12px rgba(108, 99, 255, 0.7));
 }
 
-.text-sec-logo{
-
+.text-sec-logo {
     margin: 10px;
-
     font-weight: bold;
-
     color: white;
-
     transition: all 0.35s ease;
-
     padding: 8px 14px;
-
     border-radius: 10px;
 }
 
-.text-sec-logo:hover{
-
+.text-sec-logo:hover {
     transform: translateY(-4px) scale(1.05);
-
     backdrop-filter: blur(6px);
-
     color: #6C63FF;
 }
 
-
-
-.the-five-buttons{
-
+.the-five-buttons {
     flex: 1;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     gap: 25px;
 }
 
-.btn{
-
+.btn {
     background-color: transparent;
-
     color: white;
-
     border: none;
-
     font-size: larger;
-
     font-weight: bold;
-
     transition: 0.3s;
-
     cursor: pointer;
 }
 
-.btn:hover{
-
+.btn:hover {
     transform: translateY(-5px);
-
     color: #6C63FF;
 }
 
-
-
-.Get-started-button{
-
+.Get-started-button {
     display: flex;
 }
 
-.btn2{
-
+.btn2 {
     padding: 12px 24px;
-
     background: linear-gradient(135deg, #6C63FF, #4A90E2);
-
     color: white;
-
     border: none;
-
     border-radius: 12px;
-
     cursor: pointer;
-
     transition: all 0.35s ease;
-
     font-size: larger;
-
     font-weight: bold;
-
     box-shadow: 0 0 15px rgba(108, 99, 255, 0.4);
 }
 
-.btn2:hover{
-
+.btn2:hover {
     transform: translateY(-6px) scale(1.05);
-
     background: linear-gradient(135deg, #7D76FF, #5AA9FF);
-
     box-shadow: 0 0 25px rgba(108, 99, 255, 0.7);
 }
 
-.home-text{
-
+.home-text {
     margin-left: 50px;
-
-    marging-top: 40px;
+    margin-top: 40px;
 }
-.home-text h1{
-    
+
+.home-text h1 {
     font-family: Arial, sans-serif;
-
     font-size: 64px;
-
     color: white;
-
     letter-spacing: -2px;
-
     margin-bottom: 18px;
-
     transition: 0.3s;
-
     font-weight: 700;
 }
 
-
-.home-text h1:hover{
-
+.home-text h1:hover {
     transform: translateY(-5px);
-
     color: #b8b8b8;
 }
 
-.home-text p{
-
+.home-text p {
     font-family: Arial, sans-serif;
-
     font-size: 20px;
-
     font-weight: 400;
-
     color: #b8b8b8;
-
     line-height: 1.7;
 }
-.items{
 
+.items {
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     width: 400px;
-
     padding: 5px 40px;
-
     margin: 10px auto 10px 90px;
-
     background-color: rgba(255,255,255,0.05);
-
     border-radius: 15px;
-
     border: 2px solid transparent;
-
     transition: 0.3s;
-
 }
 
-.items:hover{
-   
+.items:hover {
     transform: translateY(-5px);
-
     border-color: darkblue;
-
 }
 
-.text-sec{
-
+.text-sec {
     color: white;
-
 }
 
-.text-sec h2{
-
+.text-sec h2 {
     font-size: 20px;
-
     margin-bottom: 5px;
-
 }
 
-.text-sec h3{
-
+.text-sec h3 {
     font-size: 18px;
-
     margin-bottom: 10px;
-
 }
 
-.text-sec p{
-
+.text-sec p {
     font-size: 14px;
-
     line-height: 1.5;
-
 }
 
-.img-sec{
-
+.img-sec {
     display: flex;
-
     justify-content: flex-end;
-
     align-items: center;
-
 }
 
-.sec-img{
-
+.sec-img {
     width: 90px;
-
     height: 90px;
-
     object-fit: cover;
-
     object-position: center;
-
     border-radius: 7%;
-
     border: 2px solid aliceblue;
-
     display: block;
-
 }
