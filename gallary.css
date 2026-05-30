@@ -1,267 +1,163 @@
-html,
-body{
+html, body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-
-
-#Home{
-
+#Home {
     min-height: 100vh;
-
     background-image: url("./Mercury-planets-section.png");
-
     background-size: cover;
-
     background-position: center;
-
     background-repeat: no-repeat;
 }
 
-
-
-.NavBar{
-
+.NavBar {
     min-height: 90px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     padding: 0 60px;
-
     background: rgba(0, 0, 0, 0.15);
-
     backdrop-filter: blur(10px);
 }
 
-
-
-.logo-text{
-
+.logo-text {
     display: flex;
-
     align-items: center;
-
     color: aliceblue;
-
     padding: 5px;
 }
 
-#logo-sec{
-
+#logo-sec {
     padding: 5px;
-
     width: 70px;
-
     transition: all 0.35s ease;
 }
 
-#logo-sec:hover{
-
+#logo-sec:hover {
     transform: translateY(-4px) scale(1.08) rotate(-3deg);
-
     filter: drop-shadow(0 0 12px rgba(108, 99, 255, 0.7));
 }
 
-.text-sec-logo{
-
+.text-sec-logo {
     margin: 7px;
-
     font-weight: bold;
-
     color: white;
-
     transition: all 0.35s ease;
-
     padding: 8px 14px;
-
     border-radius: 10px;
 }
 
-.text-sec-logo:hover{
-
+.text-sec-logo:hover {
     transform: translateY(-4px) scale(1.05);
-
     backdrop-filter: blur(6px);
-
     color: #6C63FF;
 }
 
-
-
-.the-five-buttons{
-
+.the-five-buttons {
     flex: 1;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     gap: 25px;
 }
 
-.btn{
-
+.btn {
     background-color: transparent;
-
     color: white;
-
     border: none;
-
     font-size: larger;
-
     font-weight: bold;
-
     transition: 0.3s;
-
     cursor: pointer;
 }
 
-.btn:hover{
-
+.btn:hover {
     transform: translateY(-5px);
-
     color: #6C63FF;
 }
 
-
-
-.Get-started-button{
-
+.Get-started-button {
     display: flex;
 }
 
-.btn2{
-
+.btn2 {
     padding: 12px 24px;
-
     background: linear-gradient(135deg, #6C63FF, #4A90E2);
-
     color: white;
-
     border: none;
-
     border-radius: 12px;
-
     cursor: pointer;
-
     transition: all 0.35s ease;
-
     font-size: larger;
-
     font-weight: bold;
-
     box-shadow: 0 0 15px rgba(108, 99, 255, 0.4);
 }
 
-.btn2:hover{
-
+.btn2:hover {
     transform: translateY(-6px) scale(1.05);
-
     background: linear-gradient(135deg, #7D76FF, #5AA9FF);
-
     box-shadow: 0 0 25px rgba(108, 99, 255, 0.7);
 }
 
-
-
-.text-header{
-
+.text-header {
     margin-left: 50px;
-
     margin-top: 40px;
 }
 
-.text-header h1{
-
+.text-header h1 {
     font-family: Arial, sans-serif;
-
     font-size: 64px;
-
     font-weight: 700;
-
     color: white;
-
     letter-spacing: -2px;
-
     margin-bottom: 18px;
-
     transition: 0.3s;
 }
 
-.text-header h1:hover{
-
+.text-header h1:hover {
     transform: translateY(-5px);
-
     color: #b8b8b8;
 }
 
-.text-header p{
-
+.text-header p {
     font-family: Arial, sans-serif;
-
     font-size: 20px;
-
     font-weight: 400;
-
     color: #b8b8b8;
-
     line-height: 1.7;
 }
-.Gallery-one{
+
+.Gallery-one {
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     gap: 15px;
-
-     margin-top: 15px;
-}
-.Gallery-two{
-
     margin-top: 15px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    gap: 15px;
-
 }
+
+.Gallery-two {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
 .img-gallary {
-
     width: 290px;
-
     border: 1.5px solid #b8b8b8;
-
     border-radius: 7px;
-
     transition: 0.3s ease;
-
 }
 
 .img-gallary:hover {
-
     border-color: #7c5cff;
-
     transform: scale(1.03);
-
     box-shadow: 0 0 20px rgba(124, 92, 255, 0.5);
-
 }
-
