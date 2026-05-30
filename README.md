@@ -1,4 +1,4 @@
-SpaceVoyage
+SpaceVoyage:
 Hello and welcome to SpaceVoyage. This is an interactive and visually appealing space-based website I've developed to bring the best of the cosmos right to your browser. The aim of this project was to design a sleek and up-to-date platform dedicated to various planets, historical space missions, as well as to feature a beautiful image gallery with photos from outer space.
 
 Design Features
